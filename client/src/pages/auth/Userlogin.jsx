@@ -59,7 +59,7 @@ const UserLogin = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8080/user/login', formData, {
+      const response = await axios.post('https://claims-management-0yw1.onrender.com/user/login', formData, {
         headers: {
           'Content-Type': 'application/json'
         }

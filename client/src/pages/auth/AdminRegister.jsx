@@ -86,7 +86,7 @@ const AdminRegister = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8080/admin/register', formData, {
+      const response = await axios.post('https://claims-management-0yw1.onrender.com/admin/register', formData, {
         headers: {
           'Content-Type': 'application/json'
         }

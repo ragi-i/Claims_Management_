@@ -11,7 +11,7 @@ const AllPolicy = () => {
    useEffect(()=>{
    const fetchPolicies = async(e) =>{
     try {
-    const response = await axios.get('http://localhost:8080/user/getallpolicy',{});
+    const response = await axios.get('https://claims-management-0yw1.onrender.com/user/getallpolicy',{});
     console.log('response',response);
     setpolicies(response.data.policy); 
       

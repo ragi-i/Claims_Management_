@@ -12,7 +12,7 @@ const AllUsersModal = ({ isOpen, onRequestClose }) => {
     const fetchUsers = async () => {
       if (isOpen) {
         try {
-          const response = await axios.get('http://localhost:8080/admin/getalluser');
+          const response = await axios.get('https://claims-management-0yw1.onrender.com/admin/getalluser');
           setUsers(response.data.user);
           console.log("data:", response.data);
           console.log("user:", response.data.user);

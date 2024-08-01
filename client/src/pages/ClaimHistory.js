@@ -10,7 +10,7 @@ const ClaimHistory = ({ onClose }) => {
     
       console.log("user:",user);
       try {
-        const response = await axios.post('http://localhost:8080/user/claimhistory', {
+        const response = await axios.post('https://claims-management-0yw1.onrender.com/user/claimhistory', {
           userId: user.userId
         });
         console.log('response:', response);

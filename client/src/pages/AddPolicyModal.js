@@ -11,7 +11,7 @@ const AddPolicyModal = ({ isOpen, onRequestClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/admin/postpolicy', {
+      const response = await axios.post('https://claims-management-0yw1.onrender.com/admin/postpolicy', {
         policyCategory,
         coverageAmount,
         premium

@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPolicies = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/user/getallpolicy', {});
+        const response = await axios.get('https://claims-management-0yw1.onrender.com/user/getallpolicy', {});
         console.log('response', response);
         setPolicies(response.data.policy);
       } catch (error) {
@@ -22,7 +22,7 @@ const Home = () => {
   const handleBuyPolicy = async (policyId) => {
     const user = JSON.parse(localStorage.getItem('Profile'));
     try {
-      const response = await axios.post('http://localhost:8080/user/buypolicy', {
+      const response = await axios.post('https://claims-management-0yw1.onrender.com/user/buypolicy', {
         userId: user.userId,
         policyId: policyId,
       });

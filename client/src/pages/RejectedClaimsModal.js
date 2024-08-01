@@ -14,7 +14,7 @@ const RejectedClaimsModal = ({ isOpen, onRequestClose }) => {
     if (isOpen) {
       const fetchRejectedClaims = async () => {
         try {
-          const response = await axios.get('http://localhost:8080/admin/getrejectedclaims');
+          const response = await axios.get('https://claims-management-0yw1.onrender.com/admin/getrejectedclaims');
           console.log('Fetched data:', response.data);
           setRejectedClaims(response.data);
           setLoading(false);

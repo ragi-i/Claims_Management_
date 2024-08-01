@@ -14,7 +14,7 @@ const AcceptedClaimsModal = ({ isOpen, onRequestClose }) => {
     if (isOpen) {
       const fetchAcceptedClaims = async () => {
         try {
-          const response = await axios.get('http://localhost:8080/admin/getapprovedclaims');
+          const response = await axios.get('https://claims-management-0yw1.onrender.com/admin/getapprovedclaims');
           setAcceptedClaims(response.data);
           setLoading(false);
         } catch (err) {
