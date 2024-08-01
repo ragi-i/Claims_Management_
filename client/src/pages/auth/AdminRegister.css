@@ -1,0 +1,148 @@
+.admin-register-row{
+  background-image: url('https://img.freepik.com/premium-photo/grunge-style-texture-artistic-background-wallpaper-with-color-halftone_1057389-6904.jpg');
+  width:99vw;
+  height:97vh;
+  /* padding: 20px; */
+  background-size: cover;
+  background-position: center;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: flex-end; /* Aligns the form to the right */
+  align-items: center;
+}
+
+.adminform-register-container{
+  background-color:rgba(243, 245, 239, 0.5);
+  /* margin-top:90px; */
+  margin-left:1000px;
+  /* margin-right:50px; */
+  width: 550px; 
+  height: 580px;
+  padding: 20px; /* Padding for some space inside the container */
+  margin-bottom:10px;
+  border-radius: 10px;/* Rounded corners */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Shadow for a nicer look */
+ justify-content: center;
+}
+
+.admin-register-name{
+  text-align: center;
+  font-size: 1.7em; 
+  margin-bottom: 5px; 
+  margin-top: 0px;
+  font-style: italic;
+  background-color:rgb(139, 60, 132);
+  width:200px;
+  height:35px;
+  margin-left: 150px;
+  /* margin-top:20px; */
+  border-radius: 5px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  color: rgb(1, 1, 14);
+}
+
+/* .mb-3{
+margin-left: 6px;
+text-align: left;
+font-size: 1.7em;
+margin-left:30px;
+border-radius: 10px;
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+margin-top:35px;
+font-style: italic;
+} */
+
+.form-label-register {
+  font-weight: bold;
+  font-size:1.2em;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-style: italic;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  margin-top:10px;
+}
+
+.text-row-register{
+  border-radius: 10px ;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1) ;
+  background-color: antiquewhite !important;
+  width: 400px !important;
+  height: 18px ;
+  margin-left:25px !important;
+  margin-top:5px !important;
+}
+
+
+.form-container-register input[type='email']:focus {
+  border-color: #0978ee;
+  outline: none;
+  box-shadow: 0 0 5px rgba(71, 117, 167, 0.5);
+}
+
+.btn-primary {
+  margin: 0 10px; 
+  padding: 10px 20px; 
+  background-color: #1764b6; 
+  border: none; 
+  color: white; 
+  font-size: 1em; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-top: 0px;
+  margin-left: 140px;
+  width:180px;
+  height:40px;
+  /* font-size:1.3em; */
+}
+
+.signup-link{
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size:0.8em;
+  color: rgb(14, 12, 12); 
+  display: flex;
+  margin-left:40px;
+}
+.admin-login{
+  margin-top: 10px;
+  margin-left: 100px;
+  font-size:1.3em;
+  color: rgb(170, 26, 163); 
+  display: flex;
+ 
+}
+
+.admin-register-link {
+  color: #0f95ee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left:45px;
+  margin-top:8px;
+}
+
+.admin-register-link:hover {
+  color: #ffcc00;
+}
+
+.user-redirect-link {
+  color: #010508;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left:70px;
+  margin-top:5px;
+}
+
+.user-redirect-link:hover{
+  color: #3ae410;
+}
+
+.error-adminregister-message {
+  color: rgb(190, 13, 13);
+  font-size: 18px;
+  margin-top: -3px; /* Adjust margin to keep form balanced */
+  margin-bottom: 10px;
+  margin-left:70px;
+}
+

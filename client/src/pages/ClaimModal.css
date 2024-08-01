@@ -1,0 +1,92 @@
+/* ClaimModal.css */
+.custom-modal {
+  width: 900px; /* Adjust the width as needed */
+  height: 600px;
+  max-width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #dbd2d9;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  margin-top: 40px;
+  z-index: 1001; /* Ensure the modal is on top of other elements */
+  position: relative;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important; 
+  z-index: 1000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #42ad27; /* Darker text for better contrast */
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+form {
+  background-color: #6b9c9a;
+  border: 1px solid #534444;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin: 20px 30px 0 30px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px; /* Add space between the buttons */
+  margin-top: 20px;
+  margin-left:300px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.submit-button {
+  background-color: #0d9924; /* Blue button */
+  color: #fff;
+}
+
+.close-button {
+  background-color: rgb(226, 151, 12); /* Red button */
+  color: #160404;
+}
+
+button:hover {
+  opacity: 0.8; /* Slight opacity change on hover */
+}

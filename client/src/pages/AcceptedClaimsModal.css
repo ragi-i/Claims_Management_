@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+  }
+  
+.acceptedclaims-image{
+  background-color: rgb(250, 235, 215,0.5);
+  overflow-x: hidden;
+  }
+  .acceptedclaims-name{
+    align-items:center;
+    font-size:2.5em;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: bold;
+    font-style: italic;
+    margin-left:550px;
+    /* margin-right:300px;  */
+    margin-top:30px;
+    width: 400px;
+    width: fit-content;
+    color:darkcyan;
+  }
+  
+  .acceptedclaims-history {
+    margin-top: 60px; /* Adjust to ensure content doesn't overlap the fixed Navbar */
+    width: 100%;
+    /* height:100%; */
+    padding: 20px;
+  }
+  
+  .view-acceptedclaims-container {
+    display: flex; /* or grid */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 0 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  
+  .acceptedclaims-container {
+    background-color: rgba(205, 92, 92, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 360px;
+    height: 270px;
+    margin: 10px;
+  
+  }
+  
+  .acceptedclaims-sidebox {
+    background-color: rgba(68, 158, 154, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    width: 330px;
+    height:240px;
+    margin: 20px;
+  }
+  /* .policyname{
+    align-items: center;
+    margin-left: 50px;
+    font-size:1.7em;
+    font-weight:bold;
+    color:darkgreen
+  } */
+  
+  
+  /* .policy-button:hover {
+    background-color: #45a049;
+  } */
+  .acceptedclaims-details{
+    margin-left:20px;
+    font-weight:bold;
+    font-size:1.2em;
+    margin-top:8px;
+    margin-bottom:15px;
+  }
+
+  .closing-button {
+    background-color:orange;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left:1000px;
+    margin-top:15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:black
+}
+  .closing-button:hover {
+    background: darkred;
+
+  }

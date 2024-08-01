@@ -1,0 +1,136 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .admin-page {
+    display: flex;
+    height: 100vh;
+
+    background-color: rgba(255, 235, 205, 0.9);
+
+  }
+  
+  .sidenav {
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background-color: #8a8282;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0e0909;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top:40px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .content {
+    margin-left: 200px; /* This ensures the content starts after the sidenav */
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .admin-title {
+    align-items: center;
+    font-size: 2.5em;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: fit-content;
+    color: darkcyan;
+    margin-top:10px;
+    margin-left:450px;
+  }
+  
+  .modal-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-top:40px;
+  }
+  
+  .modal-row {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .modal-box {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+  }
+  
+  .modal-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-box h2 {
+    font-size: 1.6em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .all-users-box {
+    background-color: #b1d4f1; /* Light Blue */
+  }
+  
+  .pending-claims-box {
+    background-color: #ebc285; /* Light Orange */
+  }
+  
+  .accepted-claims-box {
+    background-color: #3c5e3c; /* Light Green */
+  }
+  
+  .rejected-claims-box {
+    background-color: #ad5454; /* Light Red */
+  }
+
+  .logout-button {
+    position: absolute;
+    top: 60px;
+    margin-right:15px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: darkred;
+  }
+  

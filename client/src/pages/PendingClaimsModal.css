@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+}
+
+.pendingclaims-image {
+    background-color: rgba(250, 235, 215, 0.5);
+    overflow-x: hidden;
+}
+
+.pending-claim {
+    align-items:center;
+    font-size:2.5em;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: bold;
+    font-style: italic;
+    margin-left:550px;
+    /* margin-right:300px;  */
+    margin-top:30px;
+    width: 400px;
+    width: fit-content;
+    color:darkcyan;
+}
+
+.pendingclaims-history {
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.view-pendingclaims-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 60px;
+  margin: 0 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%; /* Ensure the container fills its parent */
+}
+
+.pendingclaim-box {
+    background-color: rgba(205, 92, 92, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    height: 370px;
+    margin: 0px;
+}
+
+.pendingclaim-sidebox {
+    background-color: rgba(68, 158, 154, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    width: 350px;
+    height:370px;
+    margin: 0px;
+}
+
+.pending-claim-details {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.clo-button {
+    background-color:orange;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left:1000px;
+    margin-top:15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:black
+}
+
+.closing-button:hover {
+    background: darkred;
+}
+
+.button {
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+    margin-top: 10px;
+  }
+
+  .accept-button, .reject-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left:50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .accept-button {
+    background-color: #4CAF50; /* Green */
+    color: rgb(15, 1, 1);
+    margin-bottom:20px;
+  }
+  
+  .reject-button {
+    background-color: #b15d57; /* Red */
+    color: white;
+    margin-bottom:20px;
+  }
+  
+  .accept-button:hover {
+    background-color: #548d57; /* Darker green */
+  }
+  
+  .reject-button:hover {
+    background-color: #d32f2f; /* Darker red */
+  }
+

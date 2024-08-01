@@ -1,0 +1,127 @@
+.user-register-row{
+    background-image: url('https://cdn.prod.website-files.com/5fbd61596e034630dd2b86af/61f8fd17b71e0f2c8befbf3d_how-banks-can-use-the-whatsapp-banking-api.jpg');
+    /* width:100vw;
+    height:100vh; */
+    width:100vw;
+    height:100vh;
+    /* padding: 20px; */
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: flex-end; /* Aligns the form to the right */
+    align-items: center;
+}
+
+.userregisterform-container{
+  background-color:rgb(0, 128, 128,0.9);
+  /* margin-top:90px; */
+  margin-left:850px;
+  /* margin-right:50px; */
+  width: 590px; 
+  height: 580px;
+  padding: 20px; /* Padding for some space inside the container */
+  margin-bottom:10px;
+  border-radius: 10px;/* Rounded corners */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Shadow for a nicer look */
+ justify-content: center;
+}
+
+.register-heading{
+    text-align: center;
+    font-size: 1.7em; 
+    /* margin-bottom: 10px;  */
+    margin-top: 20px;
+    font-style: italic;
+    background-color:rgb(138, 88, 133);
+    width:200px;
+    height:30px;
+    margin-left: 200px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    color: rgb(1, 1, 8);
+    /* margin-bottom:15px; */
+}
+
+
+.user-register-form-label {
+  font-weight: bold;
+  font-size:  1.2em;
+  display: block;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  margin-top:0px;
+  margin-left:80px;
+}
+
+.register-text-row{
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  background-color: antiquewhite;
+  width: 400px;
+  height: 18px;
+  margin-left:80px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+  .register-btn-primary {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Padding inside the buttons */
+    background-color: #126fd3; /* Button background color */
+    border: none; /* No border */
+    color: rgb(5, 0, 0); /* Button text color */
+    font-size: 1em; /* Font size of the button text */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; 
+    margin-top: 0px;
+    margin-left: 250px;
+    width:100px;
+    height:40px;
+    font-weight:bold;
+    font-style: italic;
+    /* font-size:1.2em; */
+  }
+
+  .user-Login-link{
+    /* margin-top: 6px; */
+    margin-left: 110px;
+    font-size:1.3em;
+    color: rgb(12, 1, 1); 
+    display: flex;
+    /* margin-bottom:5px; */
+   /* justify-content: center;  */
+
+  }
+
+  .user-Login-link:hover{
+    color:burlywood;
+  }
+  .admin-link{
+    /* margin-top: 10px; */
+    margin-left: 100px;
+    margin-bottom:20px;
+    font-size:1.3em;
+    color:black;
+    display: flex;
+    margin-top:0px;
+  }
+
+.admin-link:hover{
+  color:burlywood
+}
+
+.error-message {
+  color: rgb(190, 13, 13);
+  font-size: 1.2em;
+  margin-top: -3px; /* Adjust margin to keep form balanced */
+  margin-bottom: 10px;
+  margin-left: 50px;
+
+}
+  

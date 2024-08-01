@@ -1,0 +1,85 @@
+body {
+    overflow-x: hidden;
+}
+
+.users-image {
+    background-color: rgba(250, 235, 215, 0.5);
+    overflow-x: hidden;
+}
+
+.users-name {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-style: italic;
+    margin: 30px auto;
+    width: fit-content;
+    color: darkcyan;
+}
+
+.user-history {
+    margin-top: 60px; /* Adjust to ensure content doesn't overlap the fixed Navbar */
+    width: 100%;
+    padding: 20px;
+}
+
+.view-user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns the items to the left */
+    gap: 50px;
+    margin-left: 80px;
+}
+
+.users-container {
+    background-color: rgba(205, 92, 92, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    height: 220px;
+    margin: 10px;
+}
+
+.users-sidebox {
+    background-color: rgba(68, 158, 154, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    width: 320px;
+    height: 200px;
+    margin: 20px;
+}
+
+.user-details {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.closing-button {
+    background-color:orange;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left:1400px;
+    margin-top:15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:black
+}
+
+.closing-button:hover {
+    background: darkred;
+}

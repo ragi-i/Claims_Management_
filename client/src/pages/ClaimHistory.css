@@ -1,0 +1,79 @@
+html, body {
+  height: 100%; /* Ensure html and body take full height */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scroll */
+  overflow-y: auto; /* Ensure vertical scroll is enabled */
+}
+
+.claims-image {
+  background-color: rgb(250, 235, 215, 0.5);
+  min-height: 100vh; /* Ensure it takes full viewport height */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+.claims-name {
+  align-items: center;
+  font-size: 2.5em;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 30px auto 0; /* Center horizontally and set top margin */
+  width: fit-content;
+  color: darkcyan;
+}
+
+.claim-history {
+  margin-top: 60px; /* Adjust to ensure content doesn't overlap the fixed Navbar */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  max-height: calc(100vh - 100px); /* Adjust max height for scrolling */
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.view-claim-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligns the items to the left */
+  gap: 30px;
+}
+
+.claims-container {
+  background-color: rgb(205, 92, 92, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 370px;
+  height: 330px;
+  margin: 20px;
+}
+
+.claims-sidebox {
+  background-color: rgba(68, 158, 154, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start of the flex container */
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+}
+
+.policy-button:hover {
+  background-color: #45a049;
+}
+
+.claim-details {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
