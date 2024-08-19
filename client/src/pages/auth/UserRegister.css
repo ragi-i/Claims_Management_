@@ -1,7 +1,8 @@
 .user-register-row{
-    background-image: url('https://cdn.prod.website-files.com/5fbd61596e034630dd2b86af/61f8fd17b71e0f2c8befbf3d_how-banks-can-use-the-whatsapp-banking-api.jpg');
+   /*background-image: url('https://cdn.prod.website-files.com/5fbd61596e034630dd2b86af/61f8fd17b71e0f2c8befbf3d_how-banks-can-use-the-whatsapp-banking-api.jpg');
     /* width:100vw;
     height:100vh; */
+    background-image: url('../../../public/Insurance5.jpeg');
     width:100vw;
     height:100vh;
     /* padding: 20px; */
@@ -14,7 +15,7 @@
 }
 
 .userregisterform-container{
-  background-color:rgb(0, 128, 128,0.9);
+  background-color:rgba(24, 2, 39, 0.6);
   /* margin-top:90px; */
   margin-left:850px;
   /* margin-right:50px; */
@@ -33,13 +34,15 @@
     /* margin-bottom: 10px;  */
     margin-top: 20px;
     font-style: italic;
-    background-color:rgb(138, 88, 133);
+    /* background-color:rgb(138, 88, 133); */
     width:200px;
     height:30px;
     margin-left: 200px;
     border-radius: 8px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
     color: rgb(1, 1, 8);
+    font-weight:1200px;
+
     /* margin-bottom:15px; */
 }
 
@@ -55,6 +58,7 @@
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   margin-top:0px;
   margin-left:80px;
+  font-weight:1400px;
 }
 
 .register-text-row{
@@ -62,17 +66,18 @@
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   background-color: antiquewhite;
   width: 400px;
-  height: 18px;
+  height: 25px;
   margin-left:80px;
   margin-top:0px;
   margin-bottom:0px;
+  font-weight:1000px;
 }
 
 
   .register-btn-primary {
     margin: 0 10px; /* Space between buttons */
     padding: 10px 20px; /* Padding inside the buttons */
-    background-color: #126fd3; /* Button background color */
+    background-color: rgb(0, 100, 0,0.9); /* Button background color */
     border: none; /* No border */
     color: rgb(5, 0, 0); /* Button text color */
     font-size: 1em; /* Font size of the button text */
@@ -80,8 +85,8 @@
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s; 
     margin-top: 0px;
-    margin-left: 250px;
-    width:100px;
+    margin-left: 210px;
+    width:150px;
     height:40px;
     font-weight:bold;
     font-style: italic;
@@ -94,13 +99,14 @@
     font-size:1.3em;
     color: rgb(12, 1, 1); 
     display: flex;
+    font-weight: bold;
     /* margin-bottom:5px; */
    /* justify-content: center;  */
 
   }
 
   .user-Login-link:hover{
-    color:burlywood;
+    color:aqua;
   }
   .admin-link{
     /* margin-top: 10px; */
@@ -110,10 +116,11 @@
     color:black;
     display: flex;
     margin-top:0px;
+    font-weight: bold;
   }
 
 .admin-link:hover{
-  color:burlywood
+  color:aqua;
 }
 
 .error-message {

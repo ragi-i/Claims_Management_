@@ -31,7 +31,7 @@
     margin-bottom: 8px; 
     margin-top: 0px;
     font-style: italic;
-    background-color:rgb(139, 60, 132);
+    /* background-color:rgb(139, 60, 132); */
     width:300px;
     height:50px;
     margin-left: 100px;
@@ -84,7 +84,7 @@
   .btn-primary {
     margin: 0 10px; 
     padding: 10px 20px; 
-    background-color: #1764b6; 
+    /* background-color: #1764b6;  */
     border: none; 
     color: white; 
     font-size: 1em; 
@@ -121,10 +121,11 @@
     font-size: 20px;
     margin-left:45px;
     margin-top:8px;
+    font-weight: bold;
   }
   
   .admin-register-link:hover {
-    color: #ffcc00;
+    color: #0b6103;
   }
 
   .user-redirect-link {
@@ -133,10 +134,11 @@
     font-size: 20px;
     margin-left:70px;
     margin-top:5px;
+    font-weight: bold;
   }
 
   .user-redirect-link:hover{
-    color: #3ae410;
+    color: #0b6103;
   }
 
   .error-adminlogin-message {
