@@ -35,6 +35,7 @@ body {
   box-sizing: border-box; /* Ensure padding is included in width calculation */
   max-height: calc(100vh - 100px); /* Adjust max height for scrolling */
   overflow-y: auto; /* Enable vertical scroll */
+  margin-bottom: 20px;
 }
 
 .view-claim-container {
@@ -52,6 +53,7 @@ body {
   width: 370px;
   height: 330px;
   margin: 20px;
+  margin-bottom: 20px;
 }
 
 .claims-sidebox {
