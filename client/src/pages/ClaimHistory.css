@@ -12,6 +12,7 @@ body {
   background-color: rgb(250, 235, 215, 0.5);
   min-height: 100vh; /* Ensure it takes full viewport height */
   box-sizing: border-box; /* Include padding in height calculation */
+  margin-bottom: 20px;
 }
 
 .claims-name {
